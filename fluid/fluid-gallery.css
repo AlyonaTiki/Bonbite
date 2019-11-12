@@ -50,7 +50,7 @@ div.container.gallery-container {
 
 .text {
     color: white;
-    font-size: 13px;
+    font-size: 15px;
     position: absolute;
     bottom: 10px;
     -webkit-transform: translate(-50%, -50%);
