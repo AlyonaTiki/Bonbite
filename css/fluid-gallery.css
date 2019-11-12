@@ -1,0 +1,60 @@
+body {
+    background-color: #434c50;
+    min-height: 100vh;
+    font: normal 16px sans-serif;
+    padding: 0px;
+    margin: 0px;
+    background-color: #fff;
+}
+
+div.container.gallery-container {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+
+.gallery-container h1 {
+    
+    font-family: 'Droid Sans', sans-serif;
+    font-weight: bold;
+}
+
+.gallery-container p.page-description {
+    text-align: center;
+    margin: 0px auto;
+    font-size: 18px;
+    color: #999;
+}
+
+
+
+/* Override bootstrap column paddings */
+.gallery-container .row > div {
+    padding: 0px;
+}
+
+.gallery-container .lightbox img {
+    width: 100%;
+    border-radius: 0;
+    position: relative;
+}
+
+#logo {
+    height: 100px;
+    position: absolute;
+    position: fixed;
+    z-index: 10;
+    padding: 20px;
+   
+    
+    text-align: center;
+}
+
+
+
+@media(max-width: 768px) {
+    body {
+        padding: 0;
+    }
+}
+

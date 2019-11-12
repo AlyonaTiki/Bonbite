@@ -1,0 +1,66 @@
+body {
+    font-family: 'Lato', sans-serif;
+    padding: 0px;
+    margin: 0px;
+    background-color: #fff;
+}
+
+div.container.gallery-container {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    margin: auto;
+}
+
+.gallery-container .row > div {
+    padding: 0px;
+}
+
+.gallery-container .lightbox img {
+    width: 100%;
+    border-radius: 0;
+    position: relative;
+}
+
+#logo {
+    height: 100px;
+    position: absolute;
+    position: fixed;
+    z-index: 10;
+    padding: 20px;
+    text-align: center;
+}
+
+/*overlay*/
+
+.overlay {
+    position: absolute;
+
+    bottom: 0;
+    right: 0;
+    height: 10px;
+    width: 180px;
+    opacity: 0;
+    transition: .5s ease;
+}
+
+.gallery-container .lightbox:hover .overlay {
+    opacity: 1;
+}
+
+.text {
+    color: white;
+    font-size: 13px;
+    position: absolute;
+    bottom: 10px;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: right;
+}
+
+@media(max-width: 768px) {
+    body {
+        padding: 0;
+    }
+}
