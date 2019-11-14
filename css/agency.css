@@ -4,8 +4,10 @@ body {
 }
 
 p {
-    line-height: 1.75;
-    font-family: 'Lato', sans-serif;
+    line-height: 2.5;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 3px;
+    font-size: 12px;
 }
 
 a {
@@ -20,13 +22,14 @@ a:hover {
     color: #fed136 !important;
 }
 
-h1{
+h1 {
     font-family: 'Open Sans', sans-serif;
+    letter-spacing: 3px;
     font-weight: 900;
-    color: rgb(41, 55, 77);  
+    color: rgb(41, 55, 77);
     padding: 10px;
     background-color: rgba(227, 207, 215, 0.2);
-   
+
 }
 
 h2,
@@ -34,38 +37,38 @@ h3,
 h4,
 h6 {
     font-weight: 700;
-    font-family: 'Jomolhari', serif;
+    font-family: 'Cantata One', serif;
     color: #29374d;
 }
-h5{
-    font-family: 'Jomolhari', serif;
+
+h5 {
+    font-family: 'Cantata One', serif;
+    font-size: 18px;
 }
-
-
 
 .page-section {
     padding: 100px 0;
 }
 
-.page-section h2.section-heading {
-    font-size: 30px;
+.page-section h5.section-heading {
+    font-size: 14px;
     max-width: 600px;
     margin: 15px auto;
-    border-bottom: 2px solid rgb(227, 207, 215);
-    padding-bottom: 25px;
-
+    border-bottom: 1px solid rgb(227, 207, 215);
+    padding-bottom: 15px;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 3px;
 }
 
-.page-section h3.section-subheading {
-    font-size: 18px;
+.page-section h2.section-subheading {
+    font-size: 20px;
     font-weight: 400;
     max-width: 700px;
-    color: #c68d4b;
+    color: #d69b56;
     margin: 45px auto 75px;
     text-transform: none;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Cantata One', serif;
 }
-
 
 ::-moz-selection {
     background: rgb(209, 188, 188);
@@ -91,14 +94,15 @@ img::-moz-selection {
 
 #center-btn {
     margin: 50px auto 0px;
-    width: 170px;
+    width: 230px;
 }
 
 .btn {
+
+    font-weight: 600;
+    padding: 20px 45px;
     font-family: 'Open Sans', sans-serif;
-    font-weight: 700;
-    padding: 10px 35px;
-    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 3px;
 
 }
 
@@ -106,17 +110,13 @@ img::-moz-selection {
     background: rgba(255, 255, 255, 1);
     border-color: rgba(227, 207, 215, 1);
     color: rgba(51, 51, 51, 1);
-    font-size: 14px;
+    font-size: 12px;
     border-radius: 0px;
-    border-width: 2px;
-
+    border-width: 1px;
 }
 
+
 .btn-custom:hover {
-/*
-    background: #c68d4b;
-    border-color: #c68d4b;
-*/
     color: rgba(51, 51, 51, 1);
     background: rgb(227, 207, 215);
     border-color: rgb(227, 207, 215);
@@ -153,20 +153,22 @@ header.masthead {
     top: 0;
     left: 0;
     width: 100%;
-/*    height: 100%;*/
+    /*    height: 100%;*/
     z-index: -100;
 }
-.video{
+
+.video {
     top: 0px;
     margin-top: 0px;
 }
 
 
 .overlay {
-margin: 40px auto;
+    margin: 40px auto;
 
 }
-.overlay img{
+
+.overlay img {
     margin: 0px auto 30px;
 
 }
@@ -185,38 +187,41 @@ margin: 40px auto;
 }
 
 @media (max-width: 768px) {
-.upper-body {
-    margin-top: 600px;
-    background-color: white;
-    z-index: -1;
-}
-    h1{
-    font-size: 22px;
-    background-color: rgba(227, 207, 215, 0.4);
-    color: rgb(19, 31, 51);  
-}
-    .overlay img{
-    width: 100px;
-}
-    
+    .upper-body {
+        margin-top: 600px;
+        background-color: white;
+        z-index: -1;
+    }
+    h1 {
+        font-size: 22px;
+        background-color: rgba(227, 207, 215, 0.4);
+        color: rgb(19, 31, 51);
+    }
+    .overlay img {
+        width: 100px;
+    }
+
 }
 
 /* section with 3 pictures and links to PDF*/
+
 @media (max-width: 1000px) {
-.upper-body {
-    margin-top: 500px;
-    background-color: white;
-    z-index: -1;
+    .upper-body {
+        margin-top: 500px;
+        background-color: white;
+        z-index: -1;
+    }
 }
-}
+
 @media (max-width: 400px) {
-.upper-body {
-    margin-top: 220px;
-    background-color: white;
-    z-index: -1;
+    .upper-body {
+        margin-top: 220px;
+        background-color: white;
+        z-index: -1;
+    }
 }
-}
-#portfolio{
+
+#portfolio {
     background-color: aqua;
 }
 
@@ -267,6 +272,7 @@ margin: 40px auto;
 }
 
 /*footer*/
+
 .footer {
     padding: 25px 0;
     text-align: center;
@@ -277,27 +283,30 @@ margin: 40px auto;
     font-size: 90%;
     line-height: 40px;
     text-transform: none;
-    font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 3px;
+    font-size: 12px;
 }
 
 .footer ul.quicklinks {
-    font-size: 90%;
     line-height: 40px;
     margin-bottom: 0;
     text-transform: none;
-    font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 3px;
+    font-size: 12px;
 }
 
 ul.social-buttons {
-    margin-bottom: 0;
+    margin-bottom: 5px;
 }
 
 ul.social-buttons li a {
     font-size: 20px;
-    line-height: 50px;
+    line-height: 40px;
     display: block;
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     transition: all 0.3s;
     color: white;
     border-radius: 100%;
@@ -308,6 +317,6 @@ ul.social-buttons li a {
 ul.social-buttons li a:active,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:hover {
-    background-color: #c68d4b;
+    background-color: #d69b56;
     color: white;
 }
