@@ -1,6 +1,5 @@
 body {
     overflow-x: hidden;
-    line-height: 1.6;
 }
 
 p {
@@ -38,11 +37,13 @@ h6 {
     font-weight: 700;
     font-family: 'Cantata One', serif;
     color: #29374d;
+    line-height: 1.6;
 }
 
 h5 {
     font-family: 'Cantata One', serif;
     font-size: 18px;
+    line-height: 1.6;
 }
 
 .page-section {
