@@ -28,9 +28,12 @@
     <header class="masthead">
         <div class="video-container">
             <div class="video">
-                <video autoplay>
+                <video autoplay id="vid">
     <source type="video/mp4" src="img/Plating.mp4">
             </video>
+                <script>
+    document.getElementById('vid').play();
+</script>
             </div>
             <div class="overlay">
                 <img class="logo" src="img/logo_current.png" alt="Bonbite logo">
