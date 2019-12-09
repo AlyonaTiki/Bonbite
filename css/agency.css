@@ -210,10 +210,16 @@ header.masthead {
         z-index: -1;
     }
 }
-
-@media (max-width: 400px) {
+@media (max-width: 600px) {
     .upper-body {
-        margin-top: 220px;
+        margin-top: 310px;
+        background-color: white;
+        z-index: -1;
+    }
+}
+@media (max-width: 480px) {
+    .upper-body {
+        margin-top: 200px;
         background-color: white;
         z-index: -1;
     }
