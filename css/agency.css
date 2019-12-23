@@ -268,6 +268,29 @@ header.masthead {
         background-color: white;
         z-index: -1;
     }
+    #center-btn {
+    margin: 10px auto 0px;
+    width: 180px;
+}
+
+.btn-custom1 {
+
+/*    color: #FFF;*/
+   background-color: rgba(34,90,128,0.7);
+    transition: all 0.5s;
+    position: fixed;
+    font-size: 9px;
+    top: 40px;
+    right: 20px;
+    z-index: 10;
+    border-radius: 150px;
+}
+
+.btn1 {
+    font-weight: 400;
+    padding: 8px 12px;
+   
+}
 }
 @media (max-width: 480px) {
     .upper-body {
